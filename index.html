@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8" />
     <title>title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Kaisei+HarunoUmi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <p>Compartiendo un poco de</p>
-        <h1>lo que me hace volar</h1>
+        <div id="titulo_inicial">
+            <h1>Lo que me hace volar</h1>
+        </div>
+        
     </header>
     <article id="fijada">
-        <div>
+        <div class="tarjeta_contenedora">
             <div>
-                <div>
+                    <img src="img/orgyprej.jpg">
+                    <div class="contenidofijada">
 
+                    </div>
               </div>
                 <div>
     
@@ -25,40 +34,57 @@
         </div>
   
     </article>
-    <div>
-        <p>No te pierdas ninguna publicación</p>
-        <p>Ingresa tu email</p>
+    <div id="suscripcion">
+        <h1>No te pierdas ninguna publicación</h1>
+        <div>
+        <p>Ingresa tu correo electrónico</p>
         <input>
-        <button>suscribite</button>
+        <button>Suscribirse</button>
+        </div> 
     </div>
     <article id="segundobloque">
         <div id="ultimas_reseñas">
-            <div>
-                <img>
-                <div>
+            <h1>Ultimas reseñas</h1>
+            <div class="tarjeta_mini">
+                <img src="img/orgyprej.jpg">
+                <div class="contenido">
                     <p>Novela</p>
                     <h1>Orgullo y prejuicio</h1>
                 </div>
             </div>
-            <button>Ver Todas</button>
+            <div class="tarjeta_mini">
+                <img src="img/xmen97.jpg">
+                <div class="contenido">
+                    <p>Comic</p>
+                    <h1>XMen 97</h1>
+                </div>
+            </div>
+            <div class="tarjeta_mini">
+                <img src="img/yourlieinapril.jpg">
+                <div class="contenido">
+                    <p>Manga</p>
+                    <h1>Your lie in april</h1>
+                </div>
+            </div>
+            <button id="boton_resenias">Ver todas</button>
         </div>
         <div id="sobre_mi">
             <h1>Un poco sobre mí</h1>
-            <img>
+            <img src="img/mujer.jpg">
             <p>Mi nombre es Nahir, tengo 24 años y soy de Argentina. Soy una apasionada de los libros y me gusta compartir mi opinión sobre ellos no solo en relación a su valoración individual sino también dando notas de opinión sobre literatura en general</p>
         </div>
     </article>
 
-    <div>
+    <div id="redes">
         <p>Para no perderte contenido seguime en mis redes</p>
-        <a>
-            <img>
+        <a href="https://x.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+            <img class="iconoredsocial" src="img/twitter.png">
         </a>
-        <a>
-            <img>
+        <a href="https://www.tiktok.com/@soyjoseabad?lang=es">
+            <img class="iconoredsocial" src="img/tiktok.png">
         </a>
-        <a>
-            <img>
+        <a href="https://www.instagram.com/dimeunlibro/?hl=es">
+            <img class="iconoredsocial" src="img/insta.png"> 
         </a>
     </div>
 

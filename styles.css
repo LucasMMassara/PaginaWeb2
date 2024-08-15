@@ -1,0 +1,270 @@
+body{ /*Caracteristicas generales*/
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #5A5A5A;
+  margin:0;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+/*Desde aca todo lo que incluye la cabecera*/
+
+header{ 
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFAF3;
+    
+    padding: 30px;
+}
+
+header p{
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 30px;
+    margin-left: 15%;
+    margin-bottom: 0;
+    font-weight: 600;
+    
+}
+
+#titulo_inicial{
+    margin-top: 0;
+    padding-top: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#titulo_inicial h1{
+    margin-top: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+/*Desde aca todo el bloque del articulo fijado*/
+
+#fijada{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+
+.tarjeta_contenedora{
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+/*Desde aca el bloque de suscripcion*/
+
+#suscripcion{
+    background-color: #F8F8F8;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#suscripcion h1{
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    padding-right: 30px;
+}
+
+#suscripcion p{
+    font-size: 12px;
+    margin: 0;
+}
+
+#suscripcion input {
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 5px 0; 
+    outline: none;
+    background-color: #F8F8F8;
+    margin-right: 30px;
+    width: 300px;
+}
+
+button {
+    font-family:"Kaisei HarunoUmi", serif;
+    border: none;
+    background-color: #E1E1E1;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+button:active {
+    background-color: #2980b9;
+}
+
+/*Desde aca el bloque de resenias e informacion personal */
+
+#segundobloque{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*ultimas resenias*/
+
+#ultimas_reseñas{
+    height: 100%;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ultimas_reseñas h1{
+    margin-bottom: 0px;
+}
+
+.tarjeta_mini{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    margin: 40px;
+    margin-bottom: 0px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tarjeta_mini img{
+    object-fit: cover;
+    height: 60%;
+    width: 100%;
+}
+
+.tarjeta_mini .contenido{
+    height:  40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tarjeta_mini .contenido p{
+    margin: 0;
+    padding-left: 10px;
+}
+
+.tarjeta_mini .contenido h1{
+    margin: 0;
+    padding-left: 10px;
+}
+
+#boton_resenias{
+    margin-top: 40px;
+}
+/*info personal*/
+
+#sobre_mi{
+    background-color: #FFFAF3;
+    width: 30%;
+    padding: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#sobre_mi h1{
+   padding-top: 80px;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+#sobre_mi p{
+    font-size: 16px;
+    font-weight: 100;
+    padding-bottom: 80px;
+}
+
+#sobre_mi img{
+    width: 400px;
+    margin: 80px 0 80px 0;
+}
+
+/*Desde aca el bloque de redes*/
+#redes{
+    background-color: #F8F8F8;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#redes p{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.iconoredsocial{
+    height: 60px;
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+/*Desde aca el bloque de ultimos reels*/
+
+#tercerbloque{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+}
+
+#tercerbloque h1{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: 100;
+    
+}
+
+#tiktoks{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#tiktoks .tiktok-embed {
+
+    margin: 20px;
+}
+
+/*Todo lo relacionado al footer*/
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #FFFAF3;
+}
