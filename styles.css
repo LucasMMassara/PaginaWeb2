@@ -319,8 +319,8 @@ a:visited {
 }
 
 #tiktoks .tiktok-embed {
-    
-    margin: 20px;
+    padding: 0;
+    margin: 10px;
 }
 
 /*Todo lo relacionado al footer*/
