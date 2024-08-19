@@ -75,21 +75,51 @@ header nav ul li{
 
 /*Desde aca todo el bloque del articulo fijado*/
 
-#fijada{
+.fijada{
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 150px;
+    flex-direction: column;
+}
+
+.fijada_acumulados{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#listaarticulos{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#listaarticulos .tituloprincipal{
+    margin-top: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.fijada .tituloprincipal{
+    margin-top: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: 100;
+    margin-bottom: 20px;
 }
 
 .tarjeta_contenedora{
+    margin: 50px;
     padding: 0;
-    margin: 0;
     height: 500px;
     width: 800px;
     overflow: hidden;
-    margin: 0px;
-    margin-bottom: 0px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
@@ -187,6 +217,15 @@ button:active {
 #ultimas_reseñas{
     height: 100%;
     width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#listaarticulos{
+    height: 100%;
+    width: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
