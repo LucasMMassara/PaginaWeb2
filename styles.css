@@ -1,6 +1,6 @@
 body{ /*Caracteristicas generales*/
   font-family: "Kaisei HarunoUmi", serif;
-  font-weight: 400;
+  font-weight: 100;
   font-style: normal;
   color: #5A5A5A;
   margin:0;
@@ -106,16 +106,6 @@ header nav ul li{
     margin-bottom: 20px;
 }
 
-.fijada .tituloprincipal{
-    margin-top: 0;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 55px;
-    font-weight: 100;
-    margin-bottom: 20px;
-}
-
 .tarjeta_contenedora{
     margin: 50px;
     padding: 0;
@@ -177,6 +167,43 @@ header nav ul li{
     margin: 0;
 }
 
+/* Estilos para el fondo oscuro */
+.modal-overlay {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+    z-index: 10; /* Asegura que esté por encima de todos los demás elementos */
+}
+
+/* Estilos para la ventana emergente */
+.modal {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 11; /* Asegura que esté por encima del fondo oscuro */
+}
+
+/* Botón para cerrar la ventana */
+.close-modal {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+
 #suscripcion input {
     border: none;
     border-bottom: 2px solid #000;
@@ -236,6 +263,10 @@ button:active {
 
 #ultimas_reseñas h1{
     margin-bottom: 0px;
+}
+
+#ultimas_reseñas .tituloprincipal{
+    font-weight: 100;
 }
 
 .tarjeta_mini{

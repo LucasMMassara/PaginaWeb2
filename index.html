@@ -39,13 +39,23 @@
         <h1>No te pierdas ninguna publicación</h1>
         <div>
         <p>Ingresa tu correo electrónico</p>
-        <input>
-        <button>Suscribirse</button>
-        </div> 
+        <input type="email" id="emailInput" placeholder="" required>
+        <button id="openModalButton">Suscribirse</button>
+        </div>
+
+        <div id="modalOverlay" class="modal-overlay"></div>
+
+        <!-- Ventana emergente -->
+        <div id="modal" class="modal">
+            <button id="closeModalButton" class="close-modal">Cerrar</button>
+            <h2>Ventana Emergente</h2>
+            <p>Este es el contenido de la ventana emergente.</p>
+        </div>
+
     </div>
     <article id="segundobloque">
         <div id="ultimas_reseñas">
-            <h1>Ultimas reseñas</h1>
+            <h1 class="tituloprincipal">Ultimas reseñas</h1>
             <div class="tarjeta_mini">
                 <img src="img/orgyprej.jpg">
                 <div class="contenido">
@@ -102,5 +112,6 @@
 
     </footer>
     <script src="redireccionamiento.js"></script>
+    <script src="suscripcion.js"></script>
 </body>
 </html>
