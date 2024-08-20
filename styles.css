@@ -193,6 +193,10 @@ header nav ul li{
     z-index: 11; /* Asegura que esté por encima del fondo oscuro */
 }
 
+.modal p{
+    padding-bottom: 30px;
+}
+
 /* Botón para cerrar la ventana */
 .close-modal {
     background-color: #f44336;
