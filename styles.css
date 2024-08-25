@@ -55,11 +55,11 @@ header nav{
     margin: 0;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     width: 100%;
-    position: fixed; /* Mantiene el nav visible mientras se desplaza */
-    top: 0; /* Se adhiere al borde superior de la ventana de visualización */
+    position: fixed; 
+    top: 0; 
     left: 0;
-    background-color: #FFFAF3; /* Color de fondo del nav */
-    z-index: 1000; /* Asegura que el nav esté encima de otros elementos */
+    background-color: #FFFAF3; 
+    z-index: 1000;
 }
 
 header nav ul{
@@ -169,43 +169,14 @@ header nav ul li{
 
 /* Estilos para el fondo oscuro */
 .modal-overlay {
-    display: none; /* Inicialmente oculto */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
-    z-index: 10; /* Asegura que esté por encima de todos los demás elementos */
-}
-
-/* Estilos para la ventana emergente */
-.modal {
-    display: none; /* Inicialmente oculto */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centra horizontal y verticalmente */
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-    z-index: 11; /* Asegura que esté por encima del fondo oscuro */
-}
-
-.modal p{
-    padding-bottom: 30px;
-}
-
-/* Botón para cerrar la ventana */
-.close-modal {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    float: right;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 10;
 }
 
 #suscripcion input {
@@ -223,7 +194,7 @@ button {
     border: none;
     background-color: #E1E1E1;
     color: rgb(0, 0, 0);
-    padding: 10px 20px; /* Espaciado interno */
+    padding: 10px 20px;
     font-size: 14px;
     cursor: pointer;
     border-radius: 5px; 
@@ -233,6 +204,35 @@ button {
 
 button:active {
     background-color: #2980b9;
+}
+
+/* Estilos para la ventana emergente */
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 11;
+}
+
+.modal p{
+    padding-bottom: 30px;
+}
+
+/* Botón para cerrar la ventana */
+.close-modal {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
 }
 
 /*Desde aca el bloque de resenias e informacion personal */
